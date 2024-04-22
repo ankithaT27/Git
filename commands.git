@@ -1,0 +1,2 @@
+$ git remote rm <destination> 
+$ git remote -v  
