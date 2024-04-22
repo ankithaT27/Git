@@ -1,2 +1,9 @@
 $ git remote rm <destination> 
 $ git remote -v  
+
+
+tags:
+$ git tag <tag name>  -->lightwirght tag
+$ git tag <tag name>  -m "msg"  -->annotated tag
+$ git push origin <tagname>  
+
