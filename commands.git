@@ -7,3 +7,15 @@ $ git tag <tag name>  -->lightwirght tag
 $ git tag <tag name>  -m "msg"  -->annotated tag
 $ git push origin <tagname>  
 
+$git log --oneline
+$git log -2 (last 2 commist)
+
+$git branch
+$git branch -d branchname
+$ git checkout <branch name>  
+$ git push origin -delete <branch name>  (deletes remote branch)
+$ git merge branchname
+
+$ git rebase --continue  
+$ git rebase -i HEAD ~3 (squashes the last 3 commits into 1)  
+
